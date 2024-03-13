@@ -1,0 +1,48 @@
+.container {
+    background-color: aquamarine;  
+    display: flex;
+    height: 400px;
+}
+
+.column_one {
+    background-color: red;
+    margin: 5px;
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 30%;
+}
+
+.box {
+    background-color: bisque;
+    margin: 20px;
+
+}
+
+.column_two {
+    background-color: yellow;
+    margin: 5px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 50%;
+}
+
+.column_three {
+    background-color: green;
+    margin: 5px;
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 20%;
+}
+
+.box1 {
+    background-color: bisque;
+    margin: 20px;
+    grid-column: 1/3;
+}
+
+.box2 {
+    background-color: bisque;
+    margin: 20px;
+    grid-column: 1/3;
+}
+
